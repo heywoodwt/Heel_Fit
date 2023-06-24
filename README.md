@@ -1,3 +1,6 @@
 # Heel_Fit
 
-Only use scrape_3_v2.py
+## Scrapes the Heel Fit website looking for changes and if a change is detected then a text message is generated. Otherwise it keeps running.
+
+### Only use scrape_3_v2.py
+
