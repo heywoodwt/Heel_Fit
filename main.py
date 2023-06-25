@@ -5,13 +5,13 @@ from twilio.rest import Client
 import time
 import logging
 
-URL_TO_MONITOR = "https://fletchertydings.com/"  # change this to the URL you want to monitor
-DELAY_TIME = 15  # seconds
+URL_TO_MONITOR = ""  # change this to the URL you want to monitor
+DELAY_TIME = 15  # Scrape every 15 seconds
 
-TWILIO_ACCOUNT_SID = "AC7b2882f87de24be321f1efc9d9d8c8a5"  # replace with your Account SID
-TWILIO_AUTH_TOKEN = "d64c8116240ac394404c7bf059adffbe"  # replace with your Auth Token
-TWILIO_PHONE_SENDER = "+19193715995"  # replace with the phone number you registered in twilio
-TWILIO_PHONE_RECIPIENT = "+17047800822"  # replace with your phone number
+TWILIO_ACCOUNT_SID = ""  # replace with your Account SID
+TWILIO_AUTH_TOKEN = ""  # replace with your Auth Token
+TWILIO_PHONE_SENDER = ""  # replace with the phone number you registered in twilio
+TWILIO_PHONE_RECIPIENT = ""  # replace with your phone number
 
 
 def send_text_alert(alert_str):
