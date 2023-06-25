@@ -42,4 +42,4 @@ while True:
             to=to_number
         )
         logging.info('Text Message Sent!')
-    time.sleep(20)  # wait 20 seconds before checking again
+    time.sleep(20)  # Wait 20 seconds before checking again
